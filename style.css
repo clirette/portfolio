@@ -1,0 +1,95 @@
+h3 {
+	font-family: Lato, sans-serif;
+	font-weight: 700;
+}
+
+hr {
+	text-align: right;
+	border-color: #fff;
+	margin: 60px auto 50px;
+	margin-right: 0;
+	border-top: solid 5px;
+}
+
+hr:after {
+	content: '\f121';
+	font-family: FontAwesome;
+	top: -.8em;
+	right: -10px;
+	position: relative;
+	display: inline-block;
+	padding: 0 .25em;
+}
+
+body {
+	padding-top: 40px;
+	background-color: #c8c8c8;
+}
+
+.navbar-inverse {
+	background-color: #2c3e50;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+	background-color: #202020;
+}
+
+.jumbotron {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.jumbotron-img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 200px;
+	width: 200px;
+}
+
+.about {
+	font-family: Lato, sans-serif;
+	font-weight: 300;
+	font-size: 1.10em;
+	color: #f2f2f2;
+	background-color: #2c3e50;
+}
+
+.about-text {
+	padding: 10px 10px 20px 50px;
+}
+
+.about-education-work {
+	padding-left: 40px;
+}
+
+.resume {
+	padding-left: 50px;
+}
+
+.resume a {
+	font-family: Lato, sans-serif;
+	font-weight: 300;
+}
+
+.work {
+	background-color: #b3b3b3;
+}
+
+.blue {
+	height: 50px;
+	background-color: blue;
+}
+
+.yellow {
+	height: 50px;
+	background-color: yellow;
+}
+
