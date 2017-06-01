@@ -22,7 +22,7 @@ hr:after {
 }
 
 body {
-	padding-top: 40px;
+	padding-top: 70px;
 	background-color: #c8c8c8;
 }
 
@@ -83,13 +83,11 @@ body {
 	background-color: #b3b3b3;
 }
 
-.blue {
-	height: 50px;
-	background-color: blue;
+.img-responsive {
+	margin-left: 0;
 }
 
-.yellow {
-	height: 50px;
-	background-color: yellow;
+.section-header {
+	padding-top: 40px;
 }
 
