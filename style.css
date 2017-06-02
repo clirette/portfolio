@@ -141,3 +141,20 @@ a.darken {
 a:focus, a:hover {
 	text-decoration: none;
 }
+
+.form-control {
+	background-color: #c8c8c8;
+	border: 0;
+	box-shadow: none;
+
+	outline: none;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+	border-bottom: 1px solid grey;
+}
+
+.form-control::-webkit-input-placeholder { 
+	/*color: white; */
+}
+
