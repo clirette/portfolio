@@ -83,6 +83,11 @@ body {
 	background-color: #b3b3b3;
 }
 
+.work-img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
 a.darken img {
 	display: block;
 	margin: 0 auto;
