@@ -110,7 +110,7 @@ a.darken {
 }
 
 .main-section {
-	padding-bottom: 10px;
+	padding-bottom: 40px;
 }
 
 .img-description-layer {
@@ -147,8 +147,21 @@ a:focus, a:hover {
 	text-decoration: none;
 }
 
+.contact {
+	background-color: #59393d;
+	font-family: Lato, sans-serif;
+	font-weight: 300;
+	font-size: 1.30em;
+	color: #f2f2f2;
+}
+
+.contact-text {
+	padding: 20px 40px;
+}
+
 .form-control {
-	background-color: #c8c8c8;
+	color: #ced4cf;
+	background-color: #59393d;
 	border: 0;
 	box-shadow: none;
 
@@ -160,6 +173,13 @@ a:focus, a:hover {
 }
 
 .form-control::-webkit-input-placeholder { 
-	/*color: white; */
+	color: #818582;
 }
 
+form {
+	margin-left: 10px;
+}
+
+.web {
+	margin-right: 10px;
+}
