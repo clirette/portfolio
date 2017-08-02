@@ -22,6 +22,12 @@ hr:after {
 	padding: 0 .25em;
 }
 
+@media (max-width: 768px) {
+	hr:after {
+		display: none;
+	}
+}
+
 body {
 	padding-top: 70px;
 	background-color: #c8c8c8;
